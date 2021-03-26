@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#canvas1{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border: 3px solid white;
+    transform: translate(-50%,-50%);
+    width: 640px;
+    height: 920px;
+    filter: blur(1px);
+}
